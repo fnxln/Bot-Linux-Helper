@@ -42,7 +42,7 @@ E obiviamente, quem não seguir as regras conforme ditas, podera resultar em ban
 
 Essa é uma lista de quem está contribuindo na questão de pesquisas e desenvolvimento para a diversidade de conteúdos do bot.
 
-| Apoiadores | GitHub|
+| Quem está apoiando?| GitHub|
 | ------ | ------ |
 | Douglas Milan| https://github.com/douglasmilan |
 | Diolinux | https://github.com/Diolinux |
