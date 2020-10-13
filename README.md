@@ -38,6 +38,8 @@ O servidor do Discord ele foi feito para as seguintes atividades:
 
 E obiviamente, quem não seguir as regras conforme ditas, podera resultar em banimento.
 
+>>> https://discord.gg/xXq7cCs
+
 ### Desenvolvedores, ajudandes e apoiadores
 
 Essa é uma lista de quem está contribuindo na questão de pesquisas e desenvolvimento para a diversidade de conteúdos do bot.
