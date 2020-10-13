@@ -38,7 +38,7 @@ O servidor do Discord ele foi feito para as seguintes atividades:
 
 E obiviamente, quem não seguir as regras conforme ditas, podera resultar em banimento.
 
->>> https://discord.gg/xXq7cCs
+> https://discord.gg/xXq7cCs
 
 ### Desenvolvedores, ajudandes e apoiadores
 
