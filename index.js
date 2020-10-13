@@ -22,15 +22,32 @@ client.once('ready', () => {
         }
         console.log(data)
     });
+
+    const activities_list = [
+        "Explorando o Ubuntu Mate", 
+        "Tentando instalar o Arch Linux",
+        "Analisando o Ubuntu", 
+        "Trabalhando com o Mint",
+        'Usando o Kali porque sou hacker'
+    ]
+
+    setInterval(function(){
+        var status = activities_list[Math.floor(Math.random() * activities_list.length)]
+        client.user.setPresence({ activity: {name: status}, status:'online'})
+    }, 10000)
 });
 
 client.on('message', message => {
     
-    if (message.content === '!Ubuntuinfo'){
-        client.commands.get('Ubuntuinfo').execute(message);
-    }else if (message.content === '!Archinfo'){
+    if (message.content === '%Ubuntuinfo'){
+        client.commands.get('Ubuntuinfo').execute(message)
+    }else if (message.content === '%Archinfo'){
         client.commands.get('Archinfo').execute(message)
+    }else if (message.content === '%Mintinfo'){
+        client.commands.get("Mintinfo").execute(message)
+    }else if (message.content === '%UbuntuMateinfo'){
+        client.commands.get('UbuntuMateinfo').execute(message)
+    }else if (message.content === '%Kaliinfo'){
+        client.commands.get('Kaliinfo').execute(message)
     }
 });
-
-client.login('token');
