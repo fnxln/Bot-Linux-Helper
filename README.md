@@ -14,11 +14,17 @@ O Bot em geral ele tem a função de ser:
 
 
 > Prefixo de comandos do Bot: %
+
 > Versão atual: 1.1.0
+
 > Estado: Em Desenvolvimento
+
 > Fase: Alpha
+
 > Criação: 11 de outubro de 2020
+
 > Ultima Atualização: 13 de outubro de 2020
+
 > Atividade: Inativo para o público
 
 ### Servidor do Discord
