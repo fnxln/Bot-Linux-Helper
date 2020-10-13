@@ -15,7 +15,7 @@ O Bot em geral ele tem a função de ser:
 
 > Prefixo de comandos do Bot: %
 
-> Versão atual: 1.1.0
+> Versão atual: 1.2.0
 
 > Estado: Em Desenvolvimento
 
@@ -26,6 +26,15 @@ O Bot em geral ele tem a função de ser:
 > Ultima Atualização: 13 de outubro de 2020
 
 > Atividade: Inativo para o público
+
+# Notas de atualização: 13 de outubro de 2020
+
+| Comandos | Atualização|
+| ------ | ------ |
+| Info| Mintinfo, Kaliinfo e UbuntuMateinfo |
+| Neutro | Atualização de status a cada 10 segundos|
+| Versão atual| 1.2.0|
+| Status atual| Em desenvolvimento|
 
 ### Servidor do Discord
 
