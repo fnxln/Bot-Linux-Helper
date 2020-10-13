@@ -26,10 +26,10 @@ client.once('ready', () => {
 
 client.on('message', message => {
     
-    if (message.content === '!UbuntuInfo'){
-        client.commands.get('UbuntuInfo').execute(message);
-    }else if (message.content === '!ArchInfo'){
-        client.commands.get('ArchInfo').execute(message)
+    if (message.content === '!Ubuntuinfo'){
+        client.commands.get('Ubuntuinfo').execute(message);
+    }else if (message.content === '!Archinfo'){
+        client.commands.get('Archinfo').execute(message)
     }
 });
 
