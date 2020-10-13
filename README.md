@@ -48,6 +48,7 @@ Essa é uma lista de quem está contribuindo na questão de pesquisas e desenvol
 | ------ | ------ |
 | Douglas Milan| https://github.com/douglasmilan |
 | Diolinux | https://github.com/Diolinux |
+| RedsonBr140 | https://github.com/RedsonBr140 |
 
 ### Como posso ajudar?
 
