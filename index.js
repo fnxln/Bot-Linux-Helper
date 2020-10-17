@@ -49,5 +49,11 @@ client.on('message', message => {
         client.commands.get('UbuntuMateinfo').execute(message)
     }else if (message.content === '%Kaliinfo'){
         client.commands.get('Kaliinfo').execute(message)
+    }else if (message.content === '%Elementaryinfo'){
+        client.commands.get('Elementaryinfo').execute(message)
+    }else if (message.content === '%SteamOSinfo'){
+        client.commands.get('SteamOSinfo').execute(message)
+    }else if (message.content === '%Debianinfo'){
+        client.commands.get('Debianinfo').execute(message)
     }
 });
