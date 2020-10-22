@@ -28,7 +28,14 @@ client.once('ready', () => {
         "Tentando instalar o Arch Linux",
         "Analisando o Ubuntu", 
         "Trabalhando com o Mint",
-        'Usando o Kali porque sou hacker'
+        "Usando o Kali porque sou hacker",
+        "Fujicando no ElementaryOS",
+        "Preparando o PC com o SteamOS",
+        "Instalando o Ubuntu Minimal no PC de pedra",
+        "Desenvolvendo no PopOS_Linux",
+        "Jogando no Manjaro",
+        "Vendo se o MXLinux é tão bom assim",
+        
     ]
 
     setInterval(function(){
@@ -55,5 +62,13 @@ client.on('message', message => {
         client.commands.get('SteamOSinfo').execute(message)
     }else if (message.content === '%Debianinfo'){
         client.commands.get('Debianinfo').execute(message)
+    }else if (message.content === "%UbuntuMinfo"){
+        client.commands.get("UbuntuMinfo").execute(message)
+    }else if (message.content === '%Manjaroinfo'){
+        client.commands.get("Manjaroinfo").execute(message)
+    }else if(message.content === '%MXLinuxinfo'){
+        client.commands.get("MXLinuxinfo").execute(message)
+    }else if(message.content === '%PopOSinfo'){
+        client.commands.get("PopOSinfo").execute(message)
     }
 });
