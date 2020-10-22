@@ -15,7 +15,7 @@ O Bot em geral ele tem a função de ser:
 
 > Prefixo de comandos do Bot: %
 
-> Versão atual: 1.3.0
+> Versão atual: 1.4.0
 
 > Estado: Em Desenvolvimento
 
@@ -23,17 +23,18 @@ O Bot em geral ele tem a função de ser:
 
 > Criação: 11 de outubro de 2020
 
-> Ultima Atualização: 17 de outubro de 2020
+> Ultima Atualização: 22 de outubro de 2020
 
 > Atividade: Inativo para o público
 
-# Notas de atualização: 17 de outubro de 2020
+# Notas de atualização: 22 de outubro de 2020
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info| Elementaryinfo, SteamOSinfo e Debianinfo |
-| Versão atual| 1.3.0|
+| Info| UbuntuMinfo, Manjaroinfo, MXLinuxinfo, PopOSinfo|
+| Versão atual| 1.4.0|
 | Status atual| Em desenvolvimento|
+| Novos títulos para o BOT|
 
 ### Servidor do Discord
 
