@@ -70,5 +70,13 @@ client.on('message', message => {
         client.commands.get("MXLinuxinfo").execute(message)
     }else if(message.content === '%PopOSinfo'){
         client.commands.get("PopOSinfo").execute(message)
+    }else if(message.content === '%Fedorainfo'){
+        client.commands.get("Fedorainfo").execute(message)
+    }else if(message.content === '%EndeavourOSinfo'){
+        client.commands.get("EndeavourOSinfo").execute(message)
+    }else if(message.content === '%KDENeoninfo'){
+        client.commands.get("KDENeoninfo").execute(message)
+    }else if(message.content === '%Solusinfo'){
+        client.commands.get("Solusinfo").execute(message)
     }
 });
