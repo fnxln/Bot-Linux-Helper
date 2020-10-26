@@ -1,7 +1,7 @@
 {
   "name": "bot-linux",
-  "version": "1.2.0",
-  "description": "",
+  "version": "1.5.0",
+  "description": "Um bot com a função de ser um Helper sobre Linux",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
