@@ -23,18 +23,17 @@ O Bot em geral ele tem a função de ser:
 
 > Criação: 11 de outubro de 2020
 
-> Ultima Atualização: 22 de outubro de 2020
+> Ultima Atualização: 26 de outubro de 2020
 
 > Atividade: Inativo para o público
 
-# Notas de atualização: 22 de outubro de 2020
+# Notas de atualização: 26 de outubro de 2020
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info| UbuntuMinfo, Manjaroinfo, MXLinuxinfo, PopOSinfo|
-| Versão atual| 1.4.0|
+| Info| Fedorainfo, EndeavourOSinfo, solusinfo e KDENeoninfo|
+| Versão atual| 1.5.0|
 | Status atual| Em desenvolvimento|
-| Novos títulos para o BOT|
 
 ### Servidor do Discord
 
