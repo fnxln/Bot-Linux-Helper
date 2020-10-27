@@ -23,17 +23,18 @@ O Bot em geral ele tem a função de ser:
 
 > Criação: 11 de outubro de 2020
 
-> Ultima Atualização: 26 de outubro de 2020
+> Ultima Atualização: 27 de outubro de 2020
 
 > Atividade: Inativo para o público
 
-# Notas de atualização: 26 de outubro de 2020
+# Notas de atualização: 27 de outubro de 2020
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info| Fedorainfo, EndeavourOSinfo, solusinfo e KDENeoninfo|
+| Info | Fedorainfo, EndeavourOSinfo, solusinfo e KDENeoninfo|
 | Versão atual| 1.5.0|
-| Status atual| Em desenvolvimento|
+| Status atual  | Em desenvolvimento|
+| Codigo-Fonte | 27/11/2020 |
 
 ### Servidor do Discord
 
