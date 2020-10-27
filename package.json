@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "author": "Drack",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^12.4.1",
     "eslint": "^7.12.1",
