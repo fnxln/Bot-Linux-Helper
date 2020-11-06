@@ -78,5 +78,11 @@ client.on('message', message => {
         client.commands.get("KDENeoninfo").execute(message)
     }else if(message.content === '%Solusinfo'){
         client.commands.get("Solusinfo").execute(message)
+    }else if(message.content === '%Slackwareinfo'){
+        client.commands.get("Slackwareinfo").execute(message)
+    }else if(message.content === '%antiXinfo'){
+        client.commands.get('antiXinfo').execute(message)
+    }else if(message.content === '%openSuseinfo'){
+        client.commands.get('openSuseinfo').execute(message)
     }
 });
