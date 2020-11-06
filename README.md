@@ -1,68 +1,90 @@
-# Linux Helper
+const fs = require('fs');
+const Discord = require('discord.js');
 
-O Bot em geral ele tem a função de ser: 
+const client = new Discord.Client();
+client.commands = new Discord.Collection();
 
-  - Ajudante em questão de puxar informações sobre Linux em Geral
-  - Ajudar em estudos e em conteúdos em grupos de Discord
-  - Facilitar os estudos para quem está iniciando no Mundo Linux!
+const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
-# Atualizações
+for (const file of commandFiles) {
+	const command = require(`./commands/${file}`);
+	client.commands.set(command.name, command);
+}
 
-  - Bot irá seguir um estilo de atualizações como o Debian, o circulo de desenvolvimento podera ser lento mas só ira ser atualizado quando tais comandos novos estiverem estavéis.
-  
-  - O Bot ele é livre para poder sofrer alterações ou para desenvolvedores que queiram apoiar o projeto.
+client.once('ready', () => {
+	var figlet = require('figlet');
+ 
+    figlet('BOT READY!', function(err, data) {
+        if (err) {
+            console.log('Something went wrong...');
+            console.dir(err);
+            return;
+        }
+        console.log(data)
+    });
 
+    const activities_list = [
+        "Explorando o Ubuntu Mate", 
+        "Tentando instalar o Arch Linux",
+        "Analisando o Ubuntu", 
+        "Trabalhando com o Mint",
+        "Usando o Kali porque sou hacker",
+        "Fujicando no ElementaryOS",
+        "Preparando o PC com o SteamOS",
+        "Instalando o Ubuntu Minimal no PC de pedra",
+        "Desenvolvendo no PopOS_Linux",
+        "Jogando no Manjaro",
+        "Vendo se o MXLinux é tão bom assim",
+        
+    ]
 
-> Prefixo de comandos do Bot: %
+    setInterval(function(){
+        var status = activities_list[Math.floor(Math.random() * activities_list.length)]
+        client.user.setPresence({ activity: {name: status}, status:'online'})
+    }, 10000)
+});
 
-> Versão atual: 1.5.0
+client.on('message', message => {
+    
+    if (message.content === '%Ubuntuinfo'){
+        client.commands.get('Ubuntuinfo').execute(message)
+    }else if (message.content === '%Archinfo'){
+        client.commands.get('Archinfo').execute(message)
+    }else if (message.content === '%Mintinfo'){
+        client.commands.get("Mintinfo").execute(message)
+    }else if (message.content === '%UbuntuMateinfo'){
+        client.commands.get('UbuntuMateinfo').execute(message)
+    }else if (message.content === '%Kaliinfo'){
+        client.commands.get('Kaliinfo').execute(message)
+    }else if (message.content === '%Elementaryinfo'){
+        client.commands.get('Elementaryinfo').execute(message)
+    }else if (message.content === '%SteamOSinfo'){
+        client.commands.get('SteamOSinfo').execute(message)
+    }else if (message.content === '%Debianinfo'){
+        client.commands.get('Debianinfo').execute(message)
+    }else if (message.content === "%UbuntuMinfo"){
+        client.commands.get("UbuntuMinfo").execute(message)
+    }else if (message.content === '%Manjaroinfo'){
+        client.commands.get("Manjaroinfo").execute(message)
+    }else if(message.content === '%MXLinuxinfo'){
+        client.commands.get("MXLinuxinfo").execute(message)
+    }else if(message.content === '%PopOSinfo'){
+        client.commands.get("PopOSinfo").execute(message)
+    }else if(message.content === '%Fedorainfo'){
+        client.commands.get("Fedorainfo").execute(message)
+    }else if(message.content === '%EndeavourOSinfo'){
+        client.commands.get("EndeavourOSinfo").execute(message)
+    }else if(message.content === '%KDENeoninfo'){
+        client.commands.get("KDENeoninfo").execute(message)
+    }else if(message.content === '%Solusinfo'){
+        client.commands.get("Solusinfo").execute(message)
+    }else if(message.content === '%Slackwareinfo'){
+        client.commands.get("Slackwareinfo").execute(message)
+    }else if(message.content === '%antiXinfo'){
+        client.commands.get('antiXinfo').execute(message)
+    }else if(message.content === '%openSuseinfo'){
+        client.commands.get('openSuseinfo').execute(message)
+    }
+});
 
-> Estado: Em Desenvolvimento
-
-> Fase: Alpha
-
-> Criação: 11 de outubro de 2020
-
-> Ultima Atualização: 27 de outubro de 2020
-
-> Atividade: Inativo para o público
-
-# Notas de atualização: 27 de outubro de 2020
-
-| Comandos | Atualização|
-| ------ | ------ |
-| Info | Fedorainfo, EndeavourOSinfo, solusinfo e KDENeoninfo|
-| Versão atual| 1.5.0|
-| Status atual  | Em desenvolvimento|
-| Codigo-Fonte | 27/11/2020 |
-
-### Servidor do Discord
-
-O servidor do Discord ele foi feito para as seguintes atividades:
-
-* Ajuda de desenvolvimento do Bot!
-* Ser um lugar onde apoiadores e testadores poderão participar.
-* Um lugar onde sim pode conversar, mas com assuntos moderados.
-* Atualizar testadores e desenvolvedores de sua versão.
-
-E obiviamente, quem não seguir as regras conforme ditas, podera resultar em banimento.
-
-> https://discord.gg/xXq7cCs
-
-### Como posso ajudar?
-
-Quer contribuir? NICE!
-
-Para poder contribuir com a ajuda do desenvolvimento do Bot precisa de algumas coisas, mas não será uma coisa tão monstruosa.
-
-Minimo:
-```sh
-Um conhecimento aprofundado de Linux e suas distribuições.
-```
-
-Para desenvolvimento:
-```sh
-Linguagem e estrutura de Bot para Discord em javaScript
-```
-
-**Free Software, Hell Yeah!**
+client.login("NzY1MDIzMTEzNjQ0ODY3NjI0.X4OxSw.e6DjX_FExT5966irEU1GcPikMGY")
