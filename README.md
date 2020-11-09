@@ -15,7 +15,7 @@ O Bot em geral ele tem a função de ser:
 
 > Prefixo de comandos do Bot: %
 
-> Versão atual: 1.6.0
+> Versão atual: 1.7.0
 
 > Estado: Em Desenvolvimento
 
@@ -23,18 +23,18 @@ O Bot em geral ele tem a função de ser:
 
 > Criação: 11 de outubro de 2020
 
-> Ultima Atualização: 6 de novembro de 2020
+> Ultima Atualização: 9 de novembro de 2020
 
 > Atividade: Inativo para o público
 
-# Notas de atualização: 6 de novembro de 2020
+# Notas de atualização: 8 de novembro de 2020
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info | Slackwareinfo, openSuseinfo, antiXinfo|
-| Versão atual| 1.6.0|
+| Info | CentOSinfo, Deepininfo, FreeBSDinfo, Garudainfo, LinuxFXinfo, LinuxLiteinfo, NixOSinfo, PcLinuxOSinfo, Puppyinfo|
+| Versão atual| 1.7.0|
 | Status atual  | Em desenvolvimento|
-| Codigo-Fonte | 06/11/2020 |
+| Codigo-Fonte | 09/11/2020 |
 
 ### Servidor do Discord
 
