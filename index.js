@@ -35,13 +35,15 @@ client.once('ready', () => {
         "Desenvolvendo no PopOS_Linux",
         "Jogando no Manjaro",
         "Vendo se o MXLinux é tão bom assim",
+        "Arriscando o Gentoo",
+        "Rodando o Bot no CentOS"
         
     ]
 
     setInterval(function(){
         var status = activities_list[Math.floor(Math.random() * activities_list.length)]
         client.user.setPresence({ activity: {name: status}, status:'online'})
-    }, 10000)
+    }, 100000)
 });
 
 client.on('message', message => {

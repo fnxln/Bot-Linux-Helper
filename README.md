@@ -31,7 +31,7 @@ O Bot em geral ele tem a função de ser:
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info | CentOSinfo, Deepininfo, FreeBSDinfo, Garudainfo, LinuxFXinfo, LinuxLiteinfo, NixOSinfo, PcLinuxOSinfo, Puppyinfo|
+| Info | CentOSinfo, Deepininfo, FreeBSDinfo, Garudainfo, LinuxFXinfo, LinuxLiteinfo, NixOSinfo, PcLinuxOSinfo, Puppyinfo, %help, arquivo md para obter os comandos|
 | Versão atual| 1.7.0|
 | Status atual  | Em desenvolvimento|
 | Codigo-Fonte | 09/11/2020 |

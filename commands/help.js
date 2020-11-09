@@ -7,7 +7,7 @@ module.exports = {
         const embed = new Discord.MessageEmbed()
             .setColor('RANDOM')
             .setTitle("Acesse o arquivo MD para obter a lista de ajuda!")
-            .setURL('https://www.debian.org/intro/about.pt.html')
+            .setURL('https://github.com/Drack112/Bot-Linux-Helper/blob/main/commands/help.md')
 	        .setTimestamp()
         message.channel.send(embed)    
     }
