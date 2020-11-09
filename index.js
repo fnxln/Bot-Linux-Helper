@@ -84,5 +84,9 @@ client.on('message', message => {
         client.commands.get('antiXinfo').execute(message)
     }else if(message.content === '%openSuseinfo'){
         client.commands.get('openSuseinfo').execute(message)
+    }else if(message.content === '%ZorinOSinfo'){
+        client.commands.get('ZorinOSinfo').execute(message)
     }
 });
+
+client.login("NzY1MDIzMTEzNjQ0ODY3NjI0.X4OxSw.jpALWlkv2OeZ8Du-zqo55BBq-1c")
