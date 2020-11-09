@@ -86,5 +86,23 @@ client.on('message', message => {
         client.commands.get('openSuseinfo').execute(message)
     }else if(message.content === '%ZorinOSinfo'){
         client.commands.get('ZorinOSinfo').execute(message)
+    }else if(message.content === '%FreeBSDinfo'){
+        client.commands.get("FreeBSDinfo").execute(message)
+    }else if(message.content === '%Garudainfo'){
+        client.commands.get("Garudainfo").execute(message)
+    }else if(message.content === '%Deepininfo'){
+        client.commands.get("Deepininfo").execute(message)
+    }else if(message.content === '%LinuxFXinfo'){
+        client.commands.get("LinuxFXinfo").execute(message)
+    }else if(message.content === '%LinuxLiteinfo'){
+        client.commands.get("LinuxLiteinfo").execute(message)
+    }else if(message.content === '%PcLinuxOSinfo'){
+        client.commands.get("PcLinuxOSinfo").execute(message)
+    }else if(message.content === '%CentOSinfo'){
+        client.commands.get("CentOSinfo").execute(message)
+    }else if(message.content === '%NixOSinfo'){
+        client.commands.get("NixOSinfo").execute(message)
+    }else if(message.content === '%Puppyinfo'){
+        client.commands.get("Puppyinfo").execute(message)
     }
 });
