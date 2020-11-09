@@ -104,5 +104,7 @@ client.on('message', message => {
         client.commands.get("NixOSinfo").execute(message)
     }else if(message.content === '%Puppyinfo'){
         client.commands.get("Puppyinfo").execute(message)
+    }else if(message.content === '%help'){
+        client.commands.get("help").execute(message)
     }
 });
