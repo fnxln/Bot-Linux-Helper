@@ -6,12 +6,11 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 
  - **infos** --> Alguma informação especifica sobre Linux.
  - **help** --> Comando para exibir uma mensagem que tem leva até esse arquivo de ajuda.
+ - **distro** --> Ira gerar um comando de info aleatório
 
 ## Comandos Infos 
 
 ### Ambos os comandos não precisam ser necessariamnte em Maiusculas ou minusculas
-
- -**distro** --> Ira gerar um comando de info aleatório
 
 ### Informações sobre Distribuições GNU/Linux
 - antiX 
