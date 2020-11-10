@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 
 module.exports = {
-	name: 'Fedorainfo',
+	name: 'fedora',
 	description: 'Informações do Fedora!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

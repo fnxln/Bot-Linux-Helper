@@ -1,7 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports = {
-	name: 'KDENeoninfo',
+    name: 'kde',
+    aliases: ['kdeneon', 'kde-neon', 'kde-linux'],
 	description: 'Informações do KDE Neon!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

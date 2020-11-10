@@ -1,7 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'LinuxLiteinfo',
+	name: 'linuxlite',
+	aliases: ['lite-linux', 'litelinux', 'lowlinux'],
 	description: 'Informações do Linux Lite!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

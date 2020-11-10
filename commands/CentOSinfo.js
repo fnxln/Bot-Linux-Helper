@@ -1,7 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports = {
-	name: 'CentOSinfo',
+    name: 'centoos',
+    aliases: ['cent-os'],
 	description: 'Informações do CentOS!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

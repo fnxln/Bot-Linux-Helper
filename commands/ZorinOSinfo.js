@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'ZorinOSinfo',
+	name: 'zorinos',
 	description: 'Informações do ZorinOS!',
 	execute(message) {
         const embed = new Discord.MessageEmbed()

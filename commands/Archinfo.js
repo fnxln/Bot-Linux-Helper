@@ -1,7 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'Archinfo',
+	name: 'arch',
+	aliases: ['arch-linux', 'archlinux'],
 	description: 'Informações do Arch!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

@@ -1,7 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports={
-    name:"MXLinuxinfo",
+    name:"mxlinux",
+    aliases: ['mx-linux', 'linux-mx'],
     description:"Informações sobre o MXLinux",
     execute(message) {
         const embed = new Discord.MessageEmbed()

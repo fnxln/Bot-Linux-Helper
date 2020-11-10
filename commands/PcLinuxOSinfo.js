@@ -1,7 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'PcLinuxOSinfo',
+	name: 'pclinux',
+	aliases:['pc-linux-os', 'pclinuxos'],
 	description: 'Informações do PcLinuxOS!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

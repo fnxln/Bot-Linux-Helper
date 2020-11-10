@@ -1,7 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports={
-    name:"Debianinfo",
+    name:"debian",
+    aliases: ['debian-linux', 'universal-distro'],
     description:"Informações sobre o Debian",
     execute(message) {
         const embed = new Discord.MessageEmbed()

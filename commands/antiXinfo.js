@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'antiXinfo',
+	name: 'antix',
 	description: 'Informações do AntiX Linux!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

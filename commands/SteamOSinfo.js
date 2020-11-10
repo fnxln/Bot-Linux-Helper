@@ -1,7 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports={
-    name:"SteamOSinfo",
+    name:"steamos",
+    aliases: ['steam-os', 'steamlinux'],
     description:"Informações sobre o SteamOS",
     execute(message) {
         const embed = new Discord.MessageEmbed()

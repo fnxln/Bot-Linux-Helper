@@ -1,7 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports={
-    name:"Elementaryinfo",
+    name:"elementary",
+    aliases: ['elementary-os', 'elementaryos'],
     description:"Informações sobre o Elementary OS",
     execute(message) {
         const embed = new Discord.MessageEmbed()

@@ -1,7 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports={
-    name:"PopOSinfo",
+    name:"popos",
+    aliases: ['pop-os', 'pop!_os', 'pop!-os'],
     description:"Informações sobre o Pop!_OS Linux",
     execute(message) {
         const embed = new Discord.MessageEmbed()

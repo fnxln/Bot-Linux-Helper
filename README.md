@@ -1,13 +1,11 @@
 # Linux Helper
 
 O Bot em geral ele tem a função de ser: 
-
   - Ajudante em questão de puxar informações sobre Linux em Geral
   - Ajudar em estudos e em conteúdos em grupos de Discord
   - Facilitar os estudos para quem está iniciando no Mundo Linux!
 
 # Atualizações
-
   - Bot irá seguir um estilo de atualizações como o Debian, o circulo de desenvolvimento podera ser lento mas só ira ser atualizado quando tais comandos novos estiverem estavéis.
   
   - O Bot ele é livre para poder sofrer alterações ou para desenvolvedores que queiram apoiar o projeto.
@@ -15,26 +13,25 @@ O Bot em geral ele tem a função de ser:
 
 > Prefixo de comandos do Bot: %
 
-> Versão atual: 1.7.0
+> Versão atual: 1.7.1
 
 > Estado: Em Desenvolvimento
 
-> Fase: Alpha
+> Fase: Beta
 
 > Criação: 11 de outubro de 2020
 
-> Ultima Atualização: 9 de novembro de 2020
+> Ultima Atualização: 10 de novembro de 2020
 
 > Atividade: Inativo para o público
 
-# Notas de atualização: 8 de novembro de 2020
+# Notas de atualização: 10 de novembro de 2020
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info | CentOSinfo, Deepininfo, FreeBSDinfo, Garudainfo, LinuxFXinfo, LinuxLiteinfo, NixOSinfo, PcLinuxOSinfo, Puppyinfo, %help, arquivo md para obter os comandos|
-| Versão atual| 1.7.0|
+| Info | Todos os comandos sofreram alterações e seu codigo fonte também, é **altamente** recomendado verificar o arquivo READMEhelp.md na pasta **./commands**|
+| Versão atual| 1.7.1|
 | Status atual  | Em desenvolvimento|
-| Codigo-Fonte | 09/11/2020 |
 
 ### Servidor do Discord
 

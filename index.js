@@ -1,5 +1,6 @@
 const fs = require('fs');
 const Discord = require('discord.js');
+const { prefix, token } = require('./config.json');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -11,9 +12,11 @@ for (const file of commandFiles) {
 	client.commands.set(command.name, command);
 }
 
+const cooldowns = new Discord.Collection();
+
 client.once('ready', () => {
 	var figlet = require('figlet');
- 
+
     figlet('BOT READY!', function(err, data) {
         if (err) {
             console.log('Something went wrong...');
@@ -47,66 +50,41 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-    
-    if (message.content === '%Ubuntuinfo'){
-        client.commands.get('Ubuntuinfo').execute(message)
-    }else if (message.content === '%Archinfo'){
-        client.commands.get('Archinfo').execute(message)
-    }else if (message.content === '%Mintinfo'){
-        client.commands.get("Mintinfo").execute(message)
-    }else if (message.content === '%UbuntuMateinfo'){
-        client.commands.get('UbuntuMateinfo').execute(message)
-    }else if (message.content === '%Kaliinfo'){
-        client.commands.get('Kaliinfo').execute(message)
-    }else if (message.content === '%Elementaryinfo'){
-        client.commands.get('Elementaryinfo').execute(message)
-    }else if (message.content === '%SteamOSinfo'){
-        client.commands.get('SteamOSinfo').execute(message)
-    }else if (message.content === '%Debianinfo'){
-        client.commands.get('Debianinfo').execute(message)
-    }else if (message.content === "%UbuntuMinfo"){
-        client.commands.get("UbuntuMinfo").execute(message)
-    }else if (message.content === '%Manjaroinfo'){
-        client.commands.get("Manjaroinfo").execute(message)
-    }else if(message.content === '%MXLinuxinfo'){
-        client.commands.get("MXLinuxinfo").execute(message)
-    }else if(message.content === '%PopOSinfo'){
-        client.commands.get("PopOSinfo").execute(message)
-    }else if(message.content === '%Fedorainfo'){
-        client.commands.get("Fedorainfo").execute(message)
-    }else if(message.content === '%EndeavourOSinfo'){
-        client.commands.get("EndeavourOSinfo").execute(message)
-    }else if(message.content === '%KDENeoninfo'){
-        client.commands.get("KDENeoninfo").execute(message)
-    }else if(message.content === '%Solusinfo'){
-        client.commands.get("Solusinfo").execute(message)
-    }else if(message.content === '%Slackwareinfo'){
-        client.commands.get("Slackwareinfo").execute(message)
-    }else if(message.content === '%antiXinfo'){
-        client.commands.get('antiXinfo').execute(message)
-    }else if(message.content === '%openSuseinfo'){
-        client.commands.get('openSuseinfo').execute(message)
-    }else if(message.content === '%ZorinOSinfo'){
-        client.commands.get('ZorinOSinfo').execute(message)
-    }else if(message.content === '%FreeBSDinfo'){
-        client.commands.get("FreeBSDinfo").execute(message)
-    }else if(message.content === '%Garudainfo'){
-        client.commands.get("Garudainfo").execute(message)
-    }else if(message.content === '%Deepininfo'){
-        client.commands.get("Deepininfo").execute(message)
-    }else if(message.content === '%LinuxFXinfo'){
-        client.commands.get("LinuxFXinfo").execute(message)
-    }else if(message.content === '%LinuxLiteinfo'){
-        client.commands.get("LinuxLiteinfo").execute(message)
-    }else if(message.content === '%PcLinuxOSinfo'){
-        client.commands.get("PcLinuxOSinfo").execute(message)
-    }else if(message.content === '%CentOSinfo'){
-        client.commands.get("CentOSinfo").execute(message)
-    }else if(message.content === '%NixOSinfo'){
-        client.commands.get("NixOSinfo").execute(message)
-    }else if(message.content === '%Puppyinfo'){
-        client.commands.get("Puppyinfo").execute(message)
-    }else if(message.content === '%help'){
-        client.commands.get("help").execute(message)
-    }
+
+	const args = message.content.slice(prefix.length).trim().split(/ +/);
+	const commandName = args.shift().toLowerCase();
+
+	const command = client.commands.get(commandName)
+		|| client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
+
+	if (!command) return;
+
+	if (!cooldowns.has(command.name)) {
+		cooldowns.set(command.name, new Discord.Collection());
+	}
+
+	const now = Date.now();
+	const timestamps = cooldowns.get(command.name);
+	const cooldownAmount = (command.cooldown || 3) * 1000;
+
+	if (timestamps.has(message.author.id)) {
+		const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
+
+		if (now < expirationTime) {
+			const timeLeft = (expirationTime - now) / 1000;
+			return message.reply(`por favor ${timeLeft.toFixed(1)} segundos para executar o \`${command.name}\`.`);
+		}
+	}
+
+	timestamps.set(message.author.id, now);
+	setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
+
+	try {
+		command.execute(message, args);
+	} catch (error) {
+		console.error(error);
+		message.reply('Erro ao tentar executar esse comando, se o erro persistir denuncie para o desenvolvedor.');
+	}
 });
+
+client.login(token);

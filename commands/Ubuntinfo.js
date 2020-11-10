@@ -1,7 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'Ubuntuinfo',
+	name: 'ubuntu',
+	aliases: ['ubuntuinfo', 'infoubuntu'],
 	description: 'Informações do Ubuntu!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

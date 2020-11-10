@@ -1,7 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'UbuntuMateinfo',
+	name: 'ubuntu-mate',
+	aliases: ['ubuntumate', 'mate-ubuntu', 'mateubuntu'],
 	description: 'Informações do Ubuntu Mate!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

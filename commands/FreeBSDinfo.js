@@ -1,7 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports={
-    name:"FreeBSDinfo",
+    name:"free-bsd",
+    aliases: ['freebsd'],
     description:"Informações sobre o Free BSD",
     execute(message) {
         const embed = new Discord.MessageEmbed()

@@ -1,7 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'Puppyinfo',
+	name: 'puppy',
+	aliases: ['puppy-linux', 'puppylinux'],
 	description: 'Informações do Puppy Linux!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

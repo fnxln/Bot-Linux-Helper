@@ -1,7 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports = {
-    name:"Kaliinfo",
+    name:"kali",
+    aliases: ['kali-linux', 'kalilinux', 'hackerlinux', 'hacker-linux'],
     description:"Oferecer informações do Kali!",
     execute(message) {
         const embed = new Discord.MessageEmbed()

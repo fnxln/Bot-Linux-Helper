@@ -1,7 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'LinuxFXinfo',
+	name: 'linuxfx',
+	aliases: ['windows-linux'],
 	description: 'Informações do LinuxFX!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

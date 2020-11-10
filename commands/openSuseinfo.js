@@ -1,7 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports={
-	name:"openSuseinfo",
+	name:"opensuse",
+	aliases: ['open-suse'],
 	description:"Um comando que ira exibir informações sobre o OpenSuse.",
 	execute(message){
 		const embed = new Discord.MessageEmbed()

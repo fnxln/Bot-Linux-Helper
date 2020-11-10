@@ -1,7 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports = {
-	name: 'EndeavourOSinfo',
+    name: 'endeavour',
+    aliases: ['endeavouros'],
 	description: 'Informações do EndeavourOS!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

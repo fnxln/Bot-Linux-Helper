@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'Slackwareinfo',
+	name: 'slackware',
 	description: 'Informações do Slackware!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'Solusinfo',
+	name: 'solus',
 	description: 'Informações do Solus!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

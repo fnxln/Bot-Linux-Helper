@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 
 module.exports = {
-	name: 'NixOSinfo',
+    name: 'nixos',
 	description: 'Informações do NixOS!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

@@ -1,7 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'UbuntuMinfo',
+    name: 'ubuntu-minimal',
+    aliases: ['ubuntum', 'minimalubuntu', 'minimal-ubuntu', 'ubuntuminimal'],
 	description: 'Informações do Ubuntu Minimal!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()
