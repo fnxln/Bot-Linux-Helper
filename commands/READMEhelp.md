@@ -16,12 +16,14 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 - antiX 
 - ArchBang ou {arch-bang}
 - Arch ou {arch-linux, archlinux}
+- Arco ou {arco-linux}
 - CentOS ou {cent-os}
 - Debian ou {debian-linux, universal-distro}
 - Deepin 
 - Elementary ou {elementary-os, elementaryos}
 - EndeavourOS ou {endeavour}
 - Fedora
+- Feren ou {ferenos}
 - FreeBSD ou {free-bsd}
 - Garuda
 - Kali ou {kali-linux, kalilinux, hackerlinux, hacker-linux}
@@ -29,6 +31,7 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 - LinuxFX ou {windows-linux}
 - LinuxLite ou {lite-linux, litelinux, lowlinux}
 - Lubuntu
+- Mageia
 - Manjaro
 - Mint
 - MXLinux ou {mx-linux, linux-mx}

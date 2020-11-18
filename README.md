@@ -13,7 +13,7 @@ O Bot em geral ele tem a função de ser:
 
 > Prefixo de comandos do Bot: %
 
-> Versão atual: 1.7.1
+> Versão atual: 1.8.1
 
 > Estado: Em Desenvolvimento
 
@@ -21,16 +21,16 @@ O Bot em geral ele tem a função de ser:
 
 > Criação: 11 de outubro de 2020
 
-> Ultima Atualização: 10 de novembro de 2020
+> Ultima Atualização: 18 de novembro de 2020
 
 > Atividade: Inativo para o público
 
-# Notas de atualização: 10 de novembro de 2020
+# Notas de atualização: 18 de novembro de 2020
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info | Todos os comandos sofreram alterações e seu codigo fonte também, é **altamente** recomendado verificar o arquivo READMEhelp.md na pasta **./commands**|
-| Versão atual| 1.7.1|
+| Info | mageia, feren e arco|
+| Versão atual| 1.8.1|
 | Status atual  | Em desenvolvimento|
 
 ### Servidor do Discord
