@@ -55,3 +55,7 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 ### Guias
 
 - help
+
+## Comando de diversão
+
+- unixporn

@@ -6,14 +6,14 @@ O Bot em geral ele tem a função de ser:
   - Facilitar os estudos para quem está iniciando no Mundo Linux!
 
 # Atualizações
-  - Bot irá seguir um estilo de atualizações como o Debian, o circulo de desenvolvimento podera ser lento mas só ira ser atualizado quando tais comandos novos estiverem estavéis.
+  - Bot irá seguir um estilo de atualizações como o ArchLinux, o circulo de desenvolvimento podera ser lento mas só ira ser atualizado quando tais comandos novos estiverem estavéis.
   
   - O Bot ele é livre para poder sofrer alterações ou para desenvolvedores que queiram apoiar o projeto.
 
 
 > Prefixo de comandos do Bot: %
 
-> Versão atual: 1.8.1
+> Versão atual: 1.9.1
 
 > Estado: Em Desenvolvimento
 
@@ -21,7 +21,7 @@ O Bot em geral ele tem a função de ser:
 
 > Criação: 11 de outubro de 2020
 
-> Ultima Atualização: 18 de novembro de 2020
+> Ultima Atualização: 27 de novembro de 2020
 
 > Atividade: Inativo para o público
 
@@ -29,8 +29,8 @@ O Bot em geral ele tem a função de ser:
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info | mageia, feren e arco|
-| Versão atual| 1.8.1|
+| Info | Comando unixporn adicionado, nova categoria de comandos de diversão|
+| Versão atual| 1.9.1|
 | Status atual  | Em desenvolvimento|
 
 ### Servidor do Discord
