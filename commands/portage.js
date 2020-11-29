@@ -13,8 +13,8 @@ module.exports = {
 	        .addFields(
 		        { name: '\u200B', value: '\u200B' },
 		        { name: 'Distros que usam Portage', value: 'Baseadas em Gentoo', inline: true },
-                { name: 'Atualizar pacotes e sistema', value: 'sudo emerge --sync', inline: true },
-                { name: "Disponivel para sistemas: ", value: '32 e 64 bits' , inline: true}
+                { name: 'Atualizar pacotes e sistema', value: 'sudo emerge -auDN @world', inline: true },
+                { name: "Disponivel para sistemas: ", value: 'Multiplataforma' , inline: true}
             )
 	        .setTimestamp()
 
