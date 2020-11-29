@@ -17,6 +17,6 @@ module.exports = {
 	        .setImage(result[0].image)
 			.setTimestamp()
 			message.channel.send(embed)
-			console.log(result)});
+			});
     }
 }

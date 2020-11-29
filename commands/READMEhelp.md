@@ -45,10 +45,17 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 - Solus
 - Sparky
 - SteamOS ou {steam-os, steamlinux}
-- Ubuntu 
+- Ubuntu-info 
 - UbuntuMate ou {ubuntu-mate, mateubuntu, mate-ubuntu}
 - UbuntuMinimal ou {ubuntu, ubuntu-minimal, minimal-ubuntu, ubuntum}
 - ZorinOS
+
+### Informações sobre gerenciador de pacotes Gnu/Linux
+
+- apt
+- rpm
+- pacman
+- portage
 
 ## Comandos de ajuda
 
@@ -59,3 +66,4 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 ## Comando de diversão
 
 - unixporn
+- memeslinux {linuxmemes, gnumemes}

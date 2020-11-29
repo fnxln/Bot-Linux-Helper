@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'ubuntu',
+	name: 'ubuntu-info',
 	aliases: ['ubuntuinfo', 'infoubuntu'],
 	description: 'Informações do Ubuntu!',
 	execute(message) {
