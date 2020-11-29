@@ -16,8 +16,8 @@ module.exports = {
                 { name: "Criação", value: '26 de julho de 2000', inline:true},
                 { name: '\u200B', value: '\u200B' },
                 { name: 'Gerenciador de pacotes', value: 'Portage', inline: true },
-                { name: 'Atualizar pacotes e sistema', value: 'emerge --sync', inline: true },
-                { name: "Disponivel para sistemas: ", value: '32 e 64 bits' , inline: true}
+                { name: 'Atualizar pacotes e sistema', value: 'emerge -auDN @world', inline: true },
+                { name: "Disponivel para sistemas: ", value: 'Multiplataforma' , inline: true}
             )
             .setTimestamp()
 
