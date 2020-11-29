@@ -13,7 +13,7 @@ O Bot em geral ele tem a função de ser:
 
 > Prefixo de comandos do Bot: %
 
-> Versão atual: 1.9.1
+> Versão atual: 1.10.1
 
 > Estado: Em Desenvolvimento
 
@@ -21,16 +21,16 @@ O Bot em geral ele tem a função de ser:
 
 > Criação: 11 de outubro de 2020
 
-> Ultima Atualização: 27 de novembro de 2020
+> Ultima Atualização: 29 de novembro de 2020
 
 > Atividade: Inativo para o público
 
-# Notas de atualização: 18 de novembro de 2020
+# Notas de atualização: 29 de novembro de 2020
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info | Comando unixporn adicionado, nova categoria de comandos de diversão|
-| Versão atual| 1.9.1|
+| Info | Comando memeslinux adicionado, nova categoria de comandos de info, rpm, apt, pacman, portage|
+| Versão atual| 1.10.1|
 | Status atual  | Em desenvolvimento|
 
 ### Servidor do Discord
