@@ -26,6 +26,7 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 - Feren ou {ferenos}
 - FreeBSD ou {free-bsd}
 - Garuda
+- Gentoo
 - Kali ou {kali-linux, kalilinux, hackerlinux, hacker-linux}
 - KDENeon ou {kde, kde-neon, kde-linux}
 - LinuxFX ou {windows-linux}

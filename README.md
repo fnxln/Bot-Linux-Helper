@@ -29,7 +29,7 @@ O Bot em geral ele tem a função de ser:
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info | Comando memeslinux adicionado, nova categoria de comandos de info, rpm, apt, pacman, portage|
+| Info | Comando memeslinux e gentoo adicionado, nova categoria de comandos de info, rpm, apt, pacman, portage|
 | Versão atual| 1.10.1|
 | Status atual  | Em desenvolvimento|
 
