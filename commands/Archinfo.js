@@ -18,7 +18,7 @@ module.exports = {
 		        { name: '\u200B', value: '\u200B' },
 		        { name: 'Gerenciador de pacotes', value: 'pacman', inline: true },
                 { name: 'Atualizar pacotes e sistema', value: 'sudo pacman -Syu', inline: true },
-                { name: "Disponivel para sistemas: ", value: '32 e 64 bits' , inline: true}
+                { name: "Disponivel para sistemas: ", value: '64 bits' , inline: true}
             )
 	        .setTimestamp()
 
