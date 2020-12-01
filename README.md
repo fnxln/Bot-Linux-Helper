@@ -13,7 +13,7 @@ O Bot em geral ele tem a função de ser:
 
 > Prefixo de comandos do Bot: %
 
-> Versão atual: 1.10.1
+> Versão atual: 1.11.1
 
 > Estado: Em Desenvolvimento
 

@@ -40,17 +40,21 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 - Mageia
 - Manjaro
 - Mint
+- MidnightBSD
 - MXLinux ou {mx-linux, linux-mx}
 - NixOS
 - openSuse ou {open-suse}
+- Parrot
 - PcLinuxOS ou {pclinux, pc-linux-os}
 - Peppermint 
 - PopOs ou {pop-os, pop!_os, pop!-os}
 - Puppy ou {puppy-linux, puppylinux}
+- Q4OS
 - Slackware
 - Solus
 - Sparky
 - SteamOS ou {steam-os, steamlinux}
+- Tails
 - Ubuntu-info 
 - UbuntuMate ou {ubuntu-mate, mateubuntu, mate-ubuntu}
 - UbuntuMinimal ou {ubuntu, ubuntu-minimal, minimal-ubuntu, ubuntum}
