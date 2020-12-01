@@ -21,16 +21,16 @@ O Bot em geral ele tem a função de ser:
 
 > Criação: 11 de outubro de 2020
 
-> Ultima Atualização: 29 de novembro de 2020
+> Ultima Atualização: 1 de Dezembro de 2020
 
 > Atividade: Inativo para o público
 
-# Notas de atualização: 29 de novembro de 2020
+# Notas de atualização: 1 de Dezembro de 2020
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info | Comando memeslinux e gentoo adicionado, nova categoria de comandos de info, rpm, apt, pacman, portage|
-| Versão atual| 1.10.1|
+| Info | AbsoluteLinux, AvLinux, EasyOS, Emmabuntus, Guix, MidnightBSD, Parrot, Tails, Q4OS |
+| Versão atual| 1.11.1|
 | Status atual  | Em desenvolvimento|
 
 ### Servidor do Discord

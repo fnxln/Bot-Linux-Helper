@@ -13,20 +13,25 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 ### Ambos os comandos não precisam ser necessariamnte em Maiusculas ou minusculas
 
 ### Informações sobre Distribuições GNU/Linux
+- Absolute ou {absolute-linux}
 - antiX 
 - ArchBang ou {arch-bang}
 - Arch ou {arch-linux, archlinux}
 - Arco ou {arco-linux}
+- AvLinux
 - CentOS ou {cent-os}
 - Debian ou {debian-linux, universal-distro}
 - Deepin 
+- EasyOS
 - Elementary ou {elementary-os, elementaryos}
+- Emmabuntus
 - EndeavourOS ou {endeavour}
 - Fedora
 - Feren ou {ferenos}
 - FreeBSD ou {free-bsd}
 - Garuda
 - Gentoo
+- Guix
 - Kali ou {kali-linux, kalilinux, hackerlinux, hacker-linux}
 - KDENeon ou {kde, kde-neon, kde-linux}
 - LinuxFX ou {windows-linux}
