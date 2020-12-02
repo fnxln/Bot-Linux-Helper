@@ -6,7 +6,6 @@ const client = new Discord.Client();
 client.commands = new Discord.Collection();
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-
 for (const file of commandFiles) {
 	const command = require(`./commands/${file}`);
 	client.commands.set(command.name, command);
@@ -15,6 +14,7 @@ for (const file of commandFiles) {
 const cooldowns = new Discord.Collection();
 
 client.once('ready', () => {
+
 	var figlet = require('figlet');
 
     figlet('BOT READY!', function(err, data) {
@@ -85,6 +85,7 @@ client.on('message', message => {
 		console.error(error);
 		message.reply('Erro ao tentar executar esse comando, se o erro persistir denuncie para o desenvolvedor.');
 	}
+
 });
 
 client.login(token);

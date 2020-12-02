@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 
 module.exports = {
-    name: 'gentoo',
+    name: 'info-gentoo',
 	description: 'Informações do Gentoo!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

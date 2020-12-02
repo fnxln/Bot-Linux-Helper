@@ -30,7 +30,7 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 - Feren ou {ferenos}
 - FreeBSD ou {free-bsd}
 - Garuda
-- Gentoo
+- Info-Gentoo
 - Guix
 - Kali ou {kali-linux, kalilinux, hackerlinux, hacker-linux}
 - KDENeon ou {kde, kde-neon, kde-linux}
@@ -54,7 +54,7 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 - Solus
 - Sparky
 - SteamOS ou {steam-os, steamlinux}
-- Tails
+- Info-Tails
 - Ubuntu-info 
 - UbuntuMate ou {ubuntu-mate, mateubuntu, mate-ubuntu}
 - UbuntuMinimal ou {ubuntu, ubuntu-minimal, minimal-ubuntu, ubuntum}

@@ -6,16 +6,16 @@ O Bot em geral ele tem a função de ser:
   - Facilitar os estudos para quem está iniciando no Mundo Linux!
 
 # Atualizações
-  - Bot irá seguir um estilo de atualizações como o ArchLinux, o circulo de desenvolvimento podera ser lento mas só ira ser atualizado quando tais comandos novos estiverem estavéis.
+  - Bot irá seguir um estilo de atualizações como o Debian, o circulo de desenvolvimento podera ser lento mas só ira ser atualizado quando tais comandos novos estiverem estavéis.
   
   - O Bot ele é livre para poder sofrer alterações ou para desenvolvedores que queiram apoiar o projeto.
 
 
 > Prefixo de comandos do Bot: %
 
-> Versão atual: 1.11.1
+> Versão atual: 1.12.1
 
-> Estado: Em Desenvolvimento
+> Estado: Aberto
 
 > Fase: Beta
 
@@ -45,6 +45,10 @@ O servidor do Discord ele foi feito para as seguintes atividades:
 E obiviamente, quem não seguir as regras conforme ditas, podera resultar em banimento.
 
 > https://discord.gg/xXq7cCs
+
+Link para você adicionar o Bot em seu servidor
+
+> https://discord.com/oauth2/authorize?client_id=765023113644867624&permissions=2048&scope=bot
 
 ### Como posso ajudar?
 
