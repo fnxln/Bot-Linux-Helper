@@ -13,7 +13,7 @@ O Bot em geral ele tem a função de ser:
 
 > Prefixo de comandos do Bot: %
 
-> Versão atual: 1.12.1
+> Versão atual: 1.13.1
 
 > Estado: Aberto
 
@@ -21,16 +21,16 @@ O Bot em geral ele tem a função de ser:
 
 > Criação: 11 de outubro de 2020
 
-> Ultima Atualização: 1 de Dezembro de 2020
+> Ultima Atualização: 4 de Dezembro de 2020
 
 > Atividade: Inativo para o público
 
-# Notas de atualização: 1 de Dezembro de 2020
+# Notas de atualização: 4 de Dezembro de 2020
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info | AbsoluteLinux, AvLinux, EasyOS, Emmabuntus, Guix, MidnightBSD, Parrot, Tails, Q4OS |
-| Versão atual| 1.11.1|
+| Info | Void, Funtoo e Artix |
+| Versão atual| 1.13.1|
 | Status atual  | Em desenvolvimento|
 
 ### Servidor do Discord

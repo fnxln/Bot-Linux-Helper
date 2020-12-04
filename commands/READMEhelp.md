@@ -18,6 +18,7 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 - ArchBang ou {arch-bang}
 - Arch ou {arch-linux, archlinux}
 - Arco ou {arco-linux}
+- Artix
 - AvLinux
 - CentOS ou {cent-os}
 - Debian ou {debian-linux, universal-distro}
@@ -29,6 +30,7 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 - Fedora
 - Feren ou {ferenos}
 - FreeBSD ou {free-bsd}
+- Info-funtoo
 - Garuda
 - Info-Gentoo
 - Guix
@@ -58,6 +60,7 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 - Ubuntu-info 
 - UbuntuMate ou {ubuntu-mate, mateubuntu, mate-ubuntu}
 - UbuntuMinimal ou {ubuntu, ubuntu-minimal, minimal-ubuntu, ubuntum}
+- Void
 - ZorinOS
 
 ### Informações sobre gerenciador de pacotes Gnu/Linux
