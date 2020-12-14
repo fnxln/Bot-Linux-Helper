@@ -1,8 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports={
-    name:"elementary",
-    aliases: ['elementary-os', 'elementaryos'],
+    name:"info-elementary",
+    aliases: ['info-elementary-os', 'info-elementaryos'],
     description:"Informações sobre o Elementary OS",
     execute(message) {
         const embed = new Discord.MessageEmbed()
@@ -11,7 +11,7 @@ module.exports={
             .setURL('https://elementary.io/pt_BR/')
             .setAuthor('O que é o ElementaryOS?', 'https://image3.mouthshut.com/images/imagesp/925793275s.png')
             .setDescription('Elementary OS é uma distribuição de Linux baseada nos lançamentos do Ubuntu com suporte de longo prazo e utiliza o ambiente de desktop Pantheon, que usa a linguagem de programação Vala. A sua interface de usuário visa ser intuitiva para novos usuários sem utilizar muitos recursos. Essa distribuição tem seu intuito ser o subtituto perfeito do Mac e do Windows.\n\nPara gerir todo o sistema, o elementary OS traz também bastantes ferramentas. Há um gestor do desktop, de notificações, várias ferramentas para gerir o hardware, ferramentas para configurar a rede, contas de serviços online, partilha de ficheiros, controlo parental, criação de contas e grupos, etc. Seu visual minimalista e bem definido é o que mais chama a atenção.\n\nSeus requisitos são um pouco pesados, 4GB de RAM, Intel i3 Dual-Core recente ou equivalente e 15GB de armazenamento.')
-	        .setThumbnail('https://image3.mouthshut.com/images/imagesp/925793275s.png')
+	        .setImage('https://thekengel.files.wordpress.com/2019/09/screenshot-from-2019-08-16-00-54-45-1.png')
 	        .addFields(
                 { name: 'Criador', value: 'Daniel Foré', inline: true },
 				{ name: "Criação", value: '31 de março de 2011', inline:true},

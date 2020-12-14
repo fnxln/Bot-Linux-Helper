@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'apt',
-	aliases: ['apt-info', 'apt'],
+	name: 'info-apt',
+	aliases: ['apt-info'],
 	description: 'Informações do gerenciador de pacotes APT!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

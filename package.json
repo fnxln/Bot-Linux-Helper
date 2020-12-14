@@ -1,6 +1,6 @@
 {
   "name": "bot-linux-helper",
-  "version": "1.13.1",
+  "version": "1.13.2",
   "description": "Um bot com a função de ser um Helper sobre Linux",
   "main": "index.js",
   "scripts": {

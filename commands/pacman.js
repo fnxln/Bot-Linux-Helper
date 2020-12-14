@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'pacman',
+	name: 'info-pacman',
 	aliases: ['pacman-info'],
 	description: 'Informações do gerenciador de pacotes Pacman!',
 	execute(message) {

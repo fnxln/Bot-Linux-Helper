@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'parrot',
+	name: 'info-parrot',
 	description: 'Informações do Parrot!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()
@@ -10,7 +10,7 @@ module.exports = {
 	        .setURL('https://parrotlinux.org/' , 'https://upload.wikimedia.org/wikipedia/commons/4/45/Parrot_Logo.png')
 	        .setAuthor('O que é o Portal?')
 	        .setDescription("O Parrot Security OS tem como foco a área de segurança, um dos vários setores de TI que exigem muito estudo, testes e superações. Projetado para pentest, análise forense em computadores, engenharia reversa, ataque, aplicações para ataques de palavras-chave, criptografia e muito mais. Possui um vasto e seleto conjunto de ferramentas, sendo também uma ótima solução ao trabalhar com criptomoedas.\n\nAo contrário do Kali Linux que utiliza por padrão o ambiente GNOME, o Parrot faz uso do MATE. Inclusive em seu site existe uma opção com KDE. O sistema é baseado em Debian e na última atualização disponibilizada.\n\n")
-	        .setThumbnail('https://upload.wikimedia.org/wikipedia/commons/4/45/Parrot_Logo.png')
+	        .setImage('https://i.redd.it/yv40m3xffia01.png')
 	        .addFields(
                 { name: 'Criador', value:'Lorenzo "Palinuro" Faletra Parrot Dev Team', inline: true},
 				{ name: "Criação", value: '10 de abril de 2013', inline:true},

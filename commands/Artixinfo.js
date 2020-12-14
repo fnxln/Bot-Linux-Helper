@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'artix',
-	aliases: ['artix-linux', 'artixlinux'],
+	name: 'info-artix',
+	aliases: ['info-artix-linux', 'info-artixlinux'],
 	description: 'Informações do Artix!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()

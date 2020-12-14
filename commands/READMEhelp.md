@@ -10,6 +10,8 @@ Lembrando que todo comando sempre começa com o prefixo '%', então não se esqu
 
 ## Comandos Infos 
 
+Cada comando info tem que começar com o %info-{distro}, exemplo: %info-ubuntu
+
 ### Ambos os comandos não precisam ser necessariamnte em Maiusculas ou minusculas
 
 ### Informações sobre Distribuições GNU/Linux

@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'absolute',
-	aliases: ['absolute-linux', 'absolutelinux'],
+	name: 'info-absolute',
+	aliases: ['info-absolute-linux', 'info-absolutelinux'],
 	description: 'Informações do Absolute Linux!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()
@@ -15,7 +15,7 @@ module.exports = {
 				{ name: "Criação", value: '2007', inline:true},
 		        { name: '\u200B', value: '\u200B' },
 		        { name: 'Gerenciador de pacotes', value: ' XPKGTOOL', inline: true },
-                { name: "Disponivel para sistemas: ", value: '32 e 64' , inline: true}
+                { name: "Disponivel para sistemas: ", value: '32 e 64 bits' , inline: true}
             )
 	        .setTimestamp()
 

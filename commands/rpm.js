@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'rpm',
+	name: 'info-rpm',
 	aliases: ['rpm-info'],
 	description: 'Informações do gerenciador de pacotes RPM!',
 	execute(message) {

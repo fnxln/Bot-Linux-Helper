@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 
 module.exports = {
-    name: 'avlinux',
+    name: 'info-avlinux',
 	description: 'Informações do Av Linux!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()
@@ -14,7 +14,7 @@ module.exports = {
             .addFields(
                 { name: "Criação", value: '3 de abril de 2019', inline:true},
                 { name: '\u200B', value: '\u200B' },
-                { name: "Gerenciador de Pacotes: ", value: 'dpkg' , inline: true},
+                { name: "Gerenciador de Pacotes: ", value: 'apt' , inline: true},
                 { name: 'Atualizar pacotes e sistema', value: 'sudo apt-get update', inline: true },
                 { name: "Disponivel para sistemas: ", value: '32 e 64 bits' , inline: true}
             )

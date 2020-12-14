@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 module.exports = {
-	name: 'portage',
+	name: 'info-portage',
 	aliases: ['portage-info'],
 	description: 'Informações do gerenciador de pacotes portage!',
 	execute(message) {

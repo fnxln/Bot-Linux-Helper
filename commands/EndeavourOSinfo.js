@@ -1,8 +1,8 @@
 const Discord = require('discord.js')
 
 module.exports = {
-    name: 'endeavour',
-    aliases: ['endeavouros'],
+    name: 'info-endeavour',
+    aliases: ['info-endeavouros', 'info-endeavour-os'],
 	description: 'Informações do EndeavourOS!',
 	execute(message) {
 		const embed = new Discord.MessageEmbed()
@@ -11,7 +11,7 @@ module.exports = {
             .setURL('https://endeavouros.com/')
             .setAuthor('O que é o EndeavourOS?', 'https://images.opencollective.com/endeavouros/f54ace2/logo/256.png')
             .setDescription('EndeavourOS é uma distribuição Linux baseada em Arch Linux, sucessora de Antergos, que foi descontinuada em 2019. Ela, como Antergos, apresenta um instalador gráfico capaz de instalar Xfce, Budgie, Cinnamon, Deepin, GNOME, I3, KDE Plasma 5, LXQt, e MATE.\n\nO mesmo possui um instalador de utilidade simples e faz com que o usuário possa escolher qual ambiente grafico ele quer gerenciador no Desktop principal. Como é baseado em Arch Linux seu gerenciador principal é o Pacman, onde da para efetuar qualquer tipo de instalação de programa no mesmo.')
-            .setThumbnail('https://upload.wikimedia.org/wikipedia/commons/b/bd/EndeavourOS_Logo.png')
+            .setImage('https://i2.wp.com/endeavouros.com/wp-content/uploads/2019/12/04_endeavouros_slide-1024x666.png?resize=640%2C416')
             .addFields(
                 { name: 'Criadores', value: '	Bryan Poerwoatmodjo, Fernando Omiechuk Frozi, Johannes Kamprad, Manuel', inline: true },
                 { name: "Criação", value: '15 de julho de 2019', inline:true},
