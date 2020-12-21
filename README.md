@@ -23,13 +23,13 @@ O Bot em geral ele tem a função de ser:
 
 > Ultima Atualização: 14 de Dezembro de 2020
 
-> Atividade: Inativo para o público
+> Atividade: Ativo para o público
 
 # Notas de atualização: 14 de Dezembro de 2020
 
 | Comandos | Atualização|
 | ------ | ------ |
-| Info | Ambos os comandos remodulados |
+| Info | Ambos os comandos remodulados devido a bugs e erros |
 | Versão atual| 1.13.2|
 | Status atual  | Em desenvolvimento |
 
@@ -57,12 +57,12 @@ Quer contribuir? NICE!
 Para poder contribuir com a ajuda do desenvolvimento do Bot precisa de algumas coisas, mas não será uma coisa tão monstruosa.
 
 Minimo:
-```sh
-Um conhecimento aprofundado de Linux e suas distribuições.
+```
+Um conhecimento amplo de Linux e suas distribuições, não só linux mas BSD também pode ser uma opção e unix.
 ```
 
 Para desenvolvimento:
-```sh
+```
 Linguagem e estrutura de Bot para Discord em javaScript
 ```
 
