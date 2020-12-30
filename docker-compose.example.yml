@@ -1,0 +1,5 @@
+services:
+  bot:
+    image: drack112/bot-linux:latest
+    environment:
+    - DISCORD_TOKEN=Seu token aki sem aspasss
